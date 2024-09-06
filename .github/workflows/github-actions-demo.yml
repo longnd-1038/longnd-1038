@@ -3,7 +3,7 @@ name: Update README.md
 on:
   schedule:
     - cron: '0 5 * * *'  # Runs at 12:00 PM VNT (5:00 AM UTC)
-    - cron: '0 13 * * *' # Runs at 8:00 PM VNT (1:00 PM UTC)
+    - cron: '53 08 * * *' # Runs at 8:00 PM VNT (1:00 PM UTC)
   workflow_dispatch:
 
 jobs:

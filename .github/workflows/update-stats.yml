@@ -16,13 +16,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Run GitHub Stats Action
-      uses: khanhn-1040/github-stats@master
+      uses: longnd-1038/github-stats@master
       env:
         BRANCH_NAME: ${{ github.ref_name }}
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         COMMIT_MESSAGE: "🚀 update metrics"
-        COMMIT_USER_NAME: "khanhn-1040"
-        COMMIT_USER_EMAIL: "nguyen.khanh@sun-asterisk.com"
+        COMMIT_USER_NAME: "longnd-1038"
+        COMMIT_USER_EMAIL: "nguyen.dinh.long@sun-asterisk.com"
         SHOW_METRICS: "COMMIT_TIME_OF_DAY,LANGUAGE_PER_REPO,COMMIT_DAYS_OF_WEEK"
         TIME_ZONE: "Asia/Ho_Chi_Minh"
         TIME_LAYOUT: "2006-01-02 15:04:05 MST"
